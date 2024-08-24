@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jogo Número Sorteado</title>
+</head>
+<body>
+    <h1>Jogo descubra o número</h1>
+    <hr>
+    <form>
+    <label>Número:
+      <input type="number" id="inNumero" required autofocus></label>
+    <input type="submit" value="apostar" id="btSubmit">
+    <input type="button" value="reiniciar" id="btReiniciar">
+    </form><br>
+      <h3>Erros: <span id="outErros"> 0</span></h3>
+      <h3>Chances: <span id="outChances"> 6</span></h3>
+      <h3 id="outDica" class="italico">Dica: É um número de 1 a 10 :)</h3>
+<script src="script.js"></script> 
+</body>
+</html>
