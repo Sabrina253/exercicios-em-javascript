@@ -1,1 +1,3 @@
 #Esse exercício visa colocar em prática o uso do Math.randon() que gera um número aleatório, além do método incluides() que serve para verificar se um determinado valor já existe em um array, podendo retornar true ou false e também visa colocar em prática o uso de contadores, para fixar o aprendizado.
+
+#Esse exercício foi tirado do livro: "Lógica de Programação e Algoritmos com JavaScript - 2ª edição - Edécio Fernando Lepsen"
