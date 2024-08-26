@@ -1,0 +1,86 @@
+Novidade! Atalhos do teclado … Os atalhos de teclado do Drive foram atualizados para oferecer navegação por letras iniciais
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d1c8a3;
+}
+
+h1{
+    color: #312d50;
+    font-size: 2rem;
+    padding: 10px;
+    text-align: center;
+}
+
+hr{
+    border: 1px solid #312d50;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+form{
+    background-color: #a4a5ef;
+    margin-left: 10px;
+    padding: 30px;
+    width: 50%;
+}
+
+label{
+    font-weight: bold;
+    color: #312d50;
+    display: block;
+    margin-bottom: 7px;
+}
+
+input{   
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 90%;
+}
+
+input[type="submit"]{
+    background-color: #a4a5ef;
+    font-weight: bold;
+    color: #312d50;
+    width: 50%;
+    border: 1px solid #312d50;
+    margin-top: 10px;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+input[type="submit"]:hover{
+    background-color: #312d50;
+    color: #a4a5ef;
+}
+
+#outResumoContas, #outValorTotal{
+    color: #312d50;
+    font-weight: bold;
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    input[type="submit"]{
+        width: 100%;  
+    }
+    form{
+        width: 95%;
+        margin-left: 10px;
+    }
+    #outResumoContas, #outValorTotal{
+        width: 95%;
+    }
+}
