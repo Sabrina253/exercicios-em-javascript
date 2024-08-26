@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Programa Conta do Mês</title>
+</head>
+<body>
+    <h1>Programa Conta do Mês</h1>
+<hr>
+<form>
+  <label for="inDescricao">Descrição da conta: </label>
+    <input type="text" id="inDescricao" required>   
+  <label for="inValor">Valor a pagar R$: </label>
+    <input type="number" id="inValor" required>  
+  <div id="container">
+    <input type="submit" value="Registrar Conta">
+  </div>
+</form>
+<pre id="outResumoContas"></pre>
+<pre id="outValorTotal"></pre>
+<script src="script.js"></script>
+</body>
+</html>
