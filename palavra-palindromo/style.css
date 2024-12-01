@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Permanent Marker", cursive;
+    background-color: #fce2d6;
+}
+
+h1{
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    color: #9f1fe0;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+    color: #9f1fe0;
+}
+
+form{
+    background-color: #f9c4ad;
+    border: 1px solid #9f1fe0;
+    margin: 0 30%;
+    padding: 100px;
+    border-radius: 5px;
+}
+
+input{   
+    border-radius: 5px;
+    border: 1px solid #9f1fe0;
+    outline: none;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+}
+
+input[type="submit"]{
+    background-color: #a4a5ef;
+    color: #9f1fe0;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+input[type="submit"]:active{
+    background-color: #9f1fe0;
+    color: #f9c4ad;
+}
+
+#out-saida{
+    color:#9f1fe0;
+    font-size: 20px;
+    margin: 5px 25%;
+    padding: 50px;
+    text-align: center;
+    border-radius: 5px; 
+}
+
+@media (max-width: 768px) {
+    input[type="submit"]{
+        width: 100%;  
+    }
+    form{
+        width: 95%;
+        margin-left: 10px;
+    }
+    #out-saida{
+        word-wrap: break-word;
+        white-space: pre-wrap;
+}
+}
